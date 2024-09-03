@@ -1,0 +1,14 @@
+import java.util.Arrays;
+class Main{
+
+    public static void main(String[] args){
+        int arr[] = { 23, 5, 18, 10, 20, 89 };
+     
+        int n = arr.length, low = 1, high=4;
+     
+        Arrays.sort(arr);
+        
+        for(int i=0; i<n; i++)
+            System.out.print(arr[i]+" ");
+    }
+}
